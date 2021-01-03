@@ -1,4 +1,5 @@
 import {elements} from './base';
+
 export const getInput = () => {
     const type = elements.transactionType.value;
     const description = elements.description.value;
