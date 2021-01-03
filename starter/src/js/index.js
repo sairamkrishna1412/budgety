@@ -13,7 +13,7 @@ import { elements } from "./views/base";
  */
 window.onload = () => {
     console.log("start ra bujji");
-    //update date
+    //update date  
     transactionView.updateDate();
     //make budget total Income & expense 0
     transactionView.updateBudget({
